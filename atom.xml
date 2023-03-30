@@ -1,0 +1,2377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>雾非雾的情思</title>
+  
+  <subtitle>临渊羡鱼，不如退而结网。</subtitle>
+  <link href="http://www.mspring.org/atom.xml" rel="self"/>
+  
+  <link href="http://www.mspring.org/"/>
+  <updated>2023-03-30T06:21:03.386Z</updated>
+  <id>http://www.mspring.org/</id>
+  
+  <author>
+    <name>雾非雾的情思</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Java手撸HttpClient</title>
+    <link href="http://www.mspring.org/2023/03/30/Java%E6%89%8B%E6%92%B8HttpClient/"/>
+    <id>http://www.mspring.org/2023/03/30/Java%E6%89%8B%E6%92%B8HttpClient/</id>
+    <published>2023-03-30T14:19:41.000Z</published>
+    <updated>2023-03-30T06:21:03.386Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;先将代码贴上，后面再整理下&lt;/p&gt;
+&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="Java" scheme="http://www.mspring.org/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Js 计算文件MD5的两种方式</title>
+    <link href="http://www.mspring.org/2023/03/05/Js-%E8%AE%A1%E7%AE%97%E6%96%87%E4%BB%B6MD5%E7%9A%84%E4%B8%A4%E7%A7%8D%E6%96%B9%E5%BC%8F/"/>
+    <id>http://www.mspring.org/2023/03/05/Js-%E8%AE%A1%E7%AE%97%E6%96%87%E4%BB%B6MD5%E7%9A%84%E4%B8%A4%E7%A7%8D%E6%96%B9%E5%BC%8F/</id>
+    <published>2023-03-05T14:48:12.000Z</published>
+    <updated>2023-03-30T06:21:03.386Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="js" scheme="http://www.mspring.org/tags/js/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用div画table</title>
+    <link href="http://www.mspring.org/2023/02/18/%E4%BD%BF%E7%94%A8div%E7%94%BBtable/"/>
+    <id>http://www.mspring.org/2023/02/18/%E4%BD%BF%E7%94%A8div%E7%94%BBtable/</id>
+    <published>2023-02-18T10:16:33.000Z</published>
+    <updated>2023-03-30T06:21:03.390Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;网上找到的两种方法，先记录下备用。&lt;/p&gt;
+&lt;figure class=&quot;highlight html&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="html" scheme="http://www.mspring.org/tags/html/"/>
+    
+    <category term="代码笔记" scheme="http://www.mspring.org/tags/%E4%BB%A3%E7%A0%81%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>RSA 公钥和私钥生成</title>
+    <link href="http://www.mspring.org/2023/01/13/RSA-%E5%85%AC%E9%92%A5%E5%92%8C%E7%A7%81%E9%92%A5%E7%94%9F%E6%88%90/"/>
+    <id>http://www.mspring.org/2023/01/13/RSA-%E5%85%AC%E9%92%A5%E5%92%8C%E7%A7%81%E9%92%A5%E7%94%9F%E6%88%90/</id>
+    <published>2023-01-13T16:45:26.000Z</published>
+    <updated>2023-03-30T06:21:03.386Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;私钥生成&quot;&gt;&lt;a href=&quot;#私钥生成&quot; class=&quot;headerlink&quot; title=&quot;私钥生成&quot;&gt;&lt;/a&gt;私钥生成&lt;/h2&gt;&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pr</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Java生成GBK所有字符，以及判断字符是否是GBK编码内字符</title>
+    <link href="http://www.mspring.org/2022/08/23/Java%E7%94%9F%E6%88%90GBK%E6%89%80%E6%9C%89%E5%AD%97%E7%AC%A6%EF%BC%8C%E4%BB%A5%E5%8F%8A%E5%88%A4%E6%96%AD%E5%AD%97%E7%AC%A6%E6%98%AF%E5%90%A6%E6%98%AFGBK%E7%BC%96%E7%A0%81%E5%86%85%E5%AD%97%E7%AC%A6/"/>
+    <id>http://www.mspring.org/2022/08/23/Java%E7%94%9F%E6%88%90GBK%E6%89%80%E6%9C%89%E5%AD%97%E7%AC%A6%EF%BC%8C%E4%BB%A5%E5%8F%8A%E5%88%A4%E6%96%AD%E5%AD%97%E7%AC%A6%E6%98%AF%E5%90%A6%E6%98%AFGBK%E7%BC%96%E7%A0%81%E5%86%85%E5%AD%97%E7%AC%A6/</id>
+    <published>2022-08-23T17:28:31.000Z</published>
+    <updated>2023-03-30T06:21:03.386Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/tags/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    <category term="Java" scheme="http://www.mspring.org/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java实现Base128编码</title>
+    <link href="http://www.mspring.org/2022/08/23/Java%E5%AE%9E%E7%8E%B0Base128%E7%BC%96%E7%A0%81/"/>
+    <id>http://www.mspring.org/2022/08/23/Java%E5%AE%9E%E7%8E%B0Base128%E7%BC%96%E7%A0%81/</id>
+    <published>2022-08-23T17:24:10.000Z</published>
+    <updated>2023-03-30T06:21:03.386Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="Java" scheme="http://www.mspring.org/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>获取GB2312编码所有汉字</title>
+    <link href="http://www.mspring.org/2022/08/22/%E8%8E%B7%E5%8F%96GB2312%E7%BC%96%E7%A0%81%E6%89%80%E6%9C%89%E6%B1%89%E5%AD%97/"/>
+    <id>http://www.mspring.org/2022/08/22/%E8%8E%B7%E5%8F%96GB2312%E7%BC%96%E7%A0%81%E6%89%80%E6%9C%89%E6%B1%89%E5%AD%97/</id>
+    <published>2022-08-22T10:49:37.000Z</published>
+    <updated>2023-03-30T06:21:03.390Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Alfred 使用iTerm</title>
+    <link href="http://www.mspring.org/2022/08/11/Alfred-%E4%BD%BF%E7%94%A8iTerm/"/>
+    <id>http://www.mspring.org/2022/08/11/Alfred-%E4%BD%BF%E7%94%A8iTerm/</id>
+    <published>2022-08-11T12:00:51.000Z</published>
+    <updated>2023-03-30T06:21:03.382Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;ADD：我在网上找到了一篇更完整的文章，文章中详细介绍了，这么配合使用alfred + iTerm2 + ssh config快速连接远程服务器：&lt;a href=&quot;https://juejin.cn/post/6844903909916426248</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/tags/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Ipv4地址段匹配</title>
+    <link href="http://www.mspring.org/2022/03/30/Ipv4%E5%9C%B0%E5%9D%80%E6%AE%B5%E5%8C%B9%E9%85%8D/"/>
+    <id>http://www.mspring.org/2022/03/30/Ipv4%E5%9C%B0%E5%9D%80%E6%AE%B5%E5%8C%B9%E9%85%8D/</id>
+    <published>2022-03-30T16:21:25.000Z</published>
+    <updated>2023-03-30T06:21:03.386Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="Java" scheme="http://www.mspring.org/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用certbot申请https证书</title>
+    <link href="http://www.mspring.org/2022/03/26/%E4%BD%BF%E7%94%A8certbot%E7%94%B3%E8%AF%B7https%E8%AF%81%E4%B9%A6/"/>
+    <id>http://www.mspring.org/2022/03/26/%E4%BD%BF%E7%94%A8certbot%E7%94%B3%E8%AF%B7https%E8%AF%81%E4%B9%A6/</id>
+    <published>2022-03-26T10:26:55.000Z</published>
+    <updated>2023-03-30T06:21:03.390Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;我的博客图片放在阿里云的oss，oss绑定域名的https证书过期很久了，之前一直懒得弄，周末抽时间弄一下，证书是使用certbot申请的，步骤如下：&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gut</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Golang文件流下载，边下载边计算MD5</title>
+    <link href="http://www.mspring.org/2022/03/08/Golang%E6%96%87%E4%BB%B6%E6%B5%81%E4%B8%8B%E8%BD%BD%EF%BC%8C%E8%BE%B9%E4%B8%8B%E8%BD%BD%E8%BE%B9%E8%AE%A1%E7%AE%97MD5/"/>
+    <id>http://www.mspring.org/2022/03/08/Golang%E6%96%87%E4%BB%B6%E6%B5%81%E4%B8%8B%E8%BD%BD%EF%BC%8C%E8%BE%B9%E4%B8%8B%E8%BD%BD%E8%BE%B9%E8%AE%A1%E7%AE%97MD5/</id>
+    <published>2022-03-08T19:57:38.000Z</published>
+    <updated>2023-03-30T06:21:03.382Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;当时是为了测试文件网卡问题，发现同样的文件，在一个很烂的网卡中不断的下载，计算的文件MD5会不一样的问题。代码记录下，留作参考。&lt;/p&gt;
+&lt;figure class=&quot;highlight go&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;spa</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="Go" scheme="http://www.mspring.org/tags/Go/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Go语言http请求计算文件md5</title>
+    <link href="http://www.mspring.org/2022/01/12/Go%E8%AF%AD%E8%A8%80http%E8%AF%B7%E6%B1%82%E8%AE%A1%E7%AE%97%E6%96%87%E4%BB%B6md5/"/>
+    <id>http://www.mspring.org/2022/01/12/Go%E8%AF%AD%E8%A8%80http%E8%AF%B7%E6%B1%82%E8%AE%A1%E7%AE%97%E6%96%87%E4%BB%B6md5/</id>
+    <published>2022-01-12T16:39:55.000Z</published>
+    <updated>2023-03-30T06:21:03.382Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;figure class=&quot;highlight go&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;l</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="Go" scheme="http://www.mspring.org/tags/Go/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用PM2运行springboot项目</title>
+    <link href="http://www.mspring.org/2021/12/02/%E4%BD%BF%E7%94%A8PM2%E8%BF%90%E8%A1%8Cspringboot%E9%A1%B9%E7%9B%AE/"/>
+    <id>http://www.mspring.org/2021/12/02/%E4%BD%BF%E7%94%A8PM2%E8%BF%90%E8%A1%8Cspringboot%E9%A1%B9%E7%9B%AE/</id>
+    <published>2021-12-02T12:01:10.000Z</published>
+    <updated>2023-03-30T06:21:03.386Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;新建文件：pm2.json&lt;/p&gt;
+&lt;figure class=&quot;highlight json&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/tags/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>解决nvm导致terminal打开慢的问题</title>
+    <link href="http://www.mspring.org/2021/10/11/%E8%A7%A3%E5%86%B3nvm%E5%AF%BC%E8%87%B4terminal%E6%89%93%E5%BC%80%E6%85%A2%E7%9A%84%E9%97%AE%E9%A2%98/"/>
+    <id>http://www.mspring.org/2021/10/11/%E8%A7%A3%E5%86%B3nvm%E5%AF%BC%E8%87%B4terminal%E6%89%93%E5%BC%80%E6%85%A2%E7%9A%84%E9%97%AE%E9%A2%98/</id>
+    <published>2021-10-11T09:59:04.000Z</published>
+    <updated>2023-03-30T06:21:03.390Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;电脑上是使用nvm安装的node，安装之后每次打开一个新的terminal都比较慢，运营是因为termainl在打开的时候会加载nvm相关内容，如下：&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutt</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="node" scheme="http://www.mspring.org/tags/node/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>同时安装多个版本JDK，快速切换JDK版本</title>
+    <link href="http://www.mspring.org/2021/09/24/%E5%90%8C%E6%97%B6%E5%AE%89%E8%A3%85%E5%A4%9A%E4%B8%AA%E7%89%88%E6%9C%ACJDK%EF%BC%8C%E5%BF%AB%E9%80%9F%E5%88%87%E6%8D%A2JDK%E7%89%88%E6%9C%AC/"/>
+    <id>http://www.mspring.org/2021/09/24/%E5%90%8C%E6%97%B6%E5%AE%89%E8%A3%85%E5%A4%9A%E4%B8%AA%E7%89%88%E6%9C%ACJDK%EF%BC%8C%E5%BF%AB%E9%80%9F%E5%88%87%E6%8D%A2JDK%E7%89%88%E6%9C%AC/</id>
+    <published>2021-09-24T15:49:46.000Z</published>
+    <updated>2023-03-30T06:21:03.390Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;推荐一个工具：&lt;a href=&quot;https://github.com/jenv/jenv&quot;&gt;https://github.com/jenv/jenv&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;1-Getting-Started&quot;&gt;&lt;a href=&quot;#1-Getting-Started</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/tags/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    <category term="Java" scheme="http://www.mspring.org/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>批量拉取代码</title>
+    <link href="http://www.mspring.org/2021/06/10/%E6%89%B9%E9%87%8F%E6%8B%89%E5%8F%96%E4%BB%A3%E7%A0%81/"/>
+    <id>http://www.mspring.org/2021/06/10/%E6%89%B9%E9%87%8F%E6%8B%89%E5%8F%96%E4%BB%A3%E7%A0%81/</id>
+    <published>2021-06-10T10:08:18.000Z</published>
+    <updated>2023-03-30T06:21:03.390Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;场景：目录中有多个git项目，想要更新批量拉取一下这些项目的最新代码。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;实现如下：&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutt</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>MacOS安装PHP</title>
+    <link href="http://www.mspring.org/2021/03/22/MacOS%E5%AE%89%E8%A3%85PHP/"/>
+    <id>http://www.mspring.org/2021/03/22/MacOS%E5%AE%89%E8%A3%85PHP/</id>
+    <published>2021-03-22T14:04:19.000Z</published>
+    <updated>2023-03-30T06:21:03.386Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;偶然的机会需要用一下PHP，记录下安装方式。本身mac系统是自带php的，但是自带的修改起来及其不方便，不好安装扩展。所以直接使用brew安装。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;brew安装php&quot;&gt;&lt;a href=&quot;#brew</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/tags/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    <category term="php" scheme="http://www.mspring.org/tags/php/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>群辉QNAP使用备忘</title>
+    <link href="http://www.mspring.org/2021/01/22/%E7%BE%A4%E8%BE%89QNAP%E4%BD%BF%E7%94%A8%E5%A4%87%E5%BF%98/"/>
+    <id>http://www.mspring.org/2021/01/22/%E7%BE%A4%E8%BE%89QNAP%E4%BD%BF%E7%94%A8%E5%A4%87%E5%BF%98/</id>
+    <published>2021-01-22T22:13:31.000Z</published>
+    <updated>2023-03-30T06:21:03.390Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;记录家里的群辉NAS使用备忘，防止忘记了。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;IP&quot;&gt;&lt;a href=&quot;#IP&quot; class=&quot;headerlink&quot; title=&quot;IP&quot;&gt;&lt;/a&gt;IP&lt;/h2&gt;&lt;p&gt;192.168.1.13&lt;/</summary>
+      
+    
+    
+    
+    <category term="碎碎念" scheme="http://www.mspring.org/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>mac iterm2 rz与sz的功能</title>
+    <link href="http://www.mspring.org/2021/01/19/mac-iterm2-rz%E4%B8%8Esz%E7%9A%84%E5%8A%9F%E8%83%BD/"/>
+    <id>http://www.mspring.org/2021/01/19/mac-iterm2-rz%E4%B8%8Esz%E7%9A%84%E5%8A%9F%E8%83%BD/</id>
+    <published>2021-01-19T16:53:42.000Z</published>
+    <updated>2023-03-30T06:21:03.386Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;本文主要介绍&lt;code&gt;mac&lt;/code&gt;环境下使用&lt;code&gt;iterm2&lt;/code&gt;的&lt;code&gt;rz sz&lt;/code&gt;功能的安装流程。&lt;/p&gt;
+&lt;h2 id=&quot;1-安装lrzsz&quot;&gt;&lt;a href=&quot;#1-安装lrzsz&quot; class=&quot;headerlink&quot; </summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="mac" scheme="http://www.mspring.org/tags/mac/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Mac使用过程中的问题汇总</title>
+    <link href="http://www.mspring.org/2020/11/25/Mac%E4%BD%BF%E7%94%A8%E8%BF%87%E7%A8%8B%E4%B8%AD%E7%9A%84%E9%97%AE%E9%A2%98%E6%B1%87%E6%80%BB/"/>
+    <id>http://www.mspring.org/2020/11/25/Mac%E4%BD%BF%E7%94%A8%E8%BF%87%E7%A8%8B%E4%B8%AD%E7%9A%84%E9%97%AE%E9%A2%98%E6%B1%87%E6%80%BB/</id>
+    <published>2020-11-25T11:18:00.000Z</published>
+    <updated>2023-03-30T06:21:03.386Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;Touchbarbu不显示音量&quot;&gt;&lt;a href=&quot;#Touchbarbu不显示音量&quot; class=&quot;headerlink&quot; title=&quot;Touchbarbu不显示音量&quot;&gt;&lt;/a&gt;Touchbarbu不显示音量&lt;/h2&gt;&lt;p&gt;这应该是一个BUG，在终端执行以下命</summary>
+      
+    
+    
+    
+    
+    <category term="mac" scheme="http://www.mspring.org/tags/mac/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>解决nvm加载慢的问题</title>
+    <link href="http://www.mspring.org/2020/11/02/%E8%A7%A3%E5%86%B3nvm%E5%8A%A0%E8%BD%BD%E6%85%A2%E7%9A%84%E9%97%AE%E9%A2%98/"/>
+    <id>http://www.mspring.org/2020/11/02/%E8%A7%A3%E5%86%B3nvm%E5%8A%A0%E8%BD%BD%E6%85%A2%E7%9A%84%E9%97%AE%E9%A2%98/</id>
+    <published>2020-11-02T16:17:29.000Z</published>
+    <updated>2023-03-30T06:21:03.390Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;为了图方便，我使用&lt;code&gt;nvm&lt;/code&gt;安装的nodejs。后来发现每当打开terminal的时候都会很慢，开始不知道什么原因，后来分析了下才知道是&lt;code&gt;nvm&lt;/code&gt;的锅。&lt;/p&gt;
+&lt;p&gt;其实我不是每次打开terminal都需要用到nvm，所以我将n</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>在命令行中压缩图片</title>
+    <link href="http://www.mspring.org/2020/10/27/%E5%9C%A8%E5%91%BD%E4%BB%A4%E8%A1%8C%E4%B8%AD%E5%8E%8B%E7%BC%A9%E5%9B%BE%E7%89%87/"/>
+    <id>http://www.mspring.org/2020/10/27/%E5%9C%A8%E5%91%BD%E4%BB%A4%E8%A1%8C%E4%B8%AD%E5%8E%8B%E7%BC%A9%E5%9B%BE%E7%89%87/</id>
+    <published>2020-10-27T16:26:31.000Z</published>
+    <updated>2023-03-30T06:21:03.390Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;今天有需求将一些非常大的图片压缩一下，本来想自己写代码进行压缩的，但是觉得这是一个非常常见的需求，应该有现成的解决方案，于是Google了一下，找到了这两个工具：jpegoptim、optipng&lt;/p&gt;
+&lt;h2 id=&quot;安装&quot;&gt;&lt;a href=&quot;#安装&quot; class=&quot;h</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/tags/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>mac下，mds_stores占用过高cpu，导致风扇狂转，怎么解决？</title>
+    <link href="http://www.mspring.org/2020/06/12/mac%E4%B8%8B%EF%BC%8Cmds-stores%E5%8D%A0%E7%94%A8%E8%BF%87%E9%AB%98cpu%EF%BC%8C%E5%AF%BC%E8%87%B4%E9%A3%8E%E6%89%87%E7%8B%82%E8%BD%AC%EF%BC%8C%E6%80%8E%E4%B9%88%E8%A7%A3%E5%86%B3%EF%BC%9F/"/>
+    <id>http://www.mspring.org/2020/06/12/mac%E4%B8%8B%EF%BC%8Cmds-stores%E5%8D%A0%E7%94%A8%E8%BF%87%E9%AB%98cpu%EF%BC%8C%E5%AF%BC%E8%87%B4%E9%A3%8E%E6%89%87%E7%8B%82%E8%BD%AC%EF%BC%8C%E6%80%8E%E4%B9%88%E8%A7%A3%E5%86%B3%EF%BC%9F/</id>
+    <published>2020-06-12T10:35:10.000Z</published>
+    <updated>2023-03-30T06:21:03.386Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;网上的以下方法，是不行的：&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=</summary>
+      
+    
+    
+    
+    <category term="碎碎念" scheme="http://www.mspring.org/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    
+    
+    <category term="mac" scheme="http://www.mspring.org/tags/mac/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>AndroidStudio连接mumu模拟器方法</title>
+    <link href="http://www.mspring.org/2020/03/07/AndroidStudio%E8%BF%9E%E6%8E%A5mumu%E6%A8%A1%E6%8B%9F%E5%99%A8%E6%96%B9%E6%B3%95/"/>
+    <id>http://www.mspring.org/2020/03/07/AndroidStudio%E8%BF%9E%E6%8E%A5mumu%E6%A8%A1%E6%8B%9F%E5%99%A8%E6%96%B9%E6%B3%95/</id>
+    <published>2020-03-07T13:10:00.000Z</published>
+    <updated>2023-03-30T06:21:03.382Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;启动mumu模拟器之后在设备列表中找不到模拟器，于是在网上搜索了下教程。&lt;/p&gt;
+&lt;p&gt;有个教程提供一下方法：&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span clas</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="Android" scheme="http://www.mspring.org/tags/Android/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Centos安装mariadb-server</title>
+    <link href="http://www.mspring.org/2019/12/25/Centos%E5%AE%89%E8%A3%85mariadb-server/"/>
+    <id>http://www.mspring.org/2019/12/25/Centos%E5%AE%89%E8%A3%85mariadb-server/</id>
+    <published>2019-12-25T10:56:15.000Z</published>
+    <updated>2023-03-30T06:21:03.382Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;安装&quot;&gt;&lt;a href=&quot;#安装&quot; class=&quot;headerlink&quot; title=&quot;安装&quot;&gt;&lt;/a&gt;安装&lt;/h2&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span c</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="mariadb" scheme="http://www.mspring.org/tags/mariadb/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>shadowsocks go 一键安装</title>
+    <link href="http://www.mspring.org/2019/12/24/shadowsocks-go-%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85/"/>
+    <id>http://www.mspring.org/2019/12/24/shadowsocks-go-%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85/</id>
+    <published>2019-12-24T14:39:06.000Z</published>
+    <updated>2023-03-30T06:21:03.386Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;本脚本适用环境：&quot;&gt;&lt;a href=&quot;#本脚本适用环境：&quot; class=&quot;headerlink&quot; title=&quot;本脚本适用环境：&quot;&gt;&lt;/a&gt;本脚本适用环境：&lt;/h2&gt;&lt;p&gt;系统支持：CentOS，Debian，Ubuntu&lt;br&gt;内存要求：≥128M&lt;br&gt;日期：</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="shadowsocks" scheme="http://www.mspring.org/tags/shadowsocks/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MySql导出指定列的数据</title>
+    <link href="http://www.mspring.org/2019/12/16/MySql%E5%AF%BC%E5%87%BA%E6%8C%87%E5%AE%9A%E5%88%97%E7%9A%84%E6%95%B0%E6%8D%AE/"/>
+    <id>http://www.mspring.org/2019/12/16/MySql%E5%AF%BC%E5%87%BA%E6%8C%87%E5%AE%9A%E5%88%97%E7%9A%84%E6%95%B0%E6%8D%AE/</id>
+    <published>2019-12-16T15:20:57.000Z</published>
+    <updated>2023-03-30T06:21:03.386Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;MySql导出整库或者指定表的数据使用&lt;code&gt;mysqldump&lt;/code&gt;命令即可，但是导出表中指定列的数据就需要用到下面命令了，如下：&lt;/p&gt;
+&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="mysql" scheme="http://www.mspring.org/tags/mysql/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>xxx is not in the sudoers file解决方法</title>
+    <link href="http://www.mspring.org/2019/11/28/xxx-is-not-in-the-sudoers-file%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
+    <id>http://www.mspring.org/2019/11/28/xxx-is-not-in-the-sudoers-file%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</id>
+    <published>2019-11-28T09:42:04.000Z</published>
+    <updated>2023-03-30T06:21:03.386Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;用sudo时提示”xxx is not in the sudoers file. This incident will be reported.其中XXX是你的用户名，也就是你的用户名没有权限使用sudo,我们只要修改一下/etc/sudoers文件就行了。下面是修改方法：</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/tags/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    <category term="Linux" scheme="http://www.mspring.org/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Use Go Channels as Promises and Async/Await</title>
+    <link href="http://www.mspring.org/2019/11/13/Use-Go-Channels-as-Promises-and-Async-Await/"/>
+    <id>http://www.mspring.org/2019/11/13/Use-Go-Channels-as-Promises-and-Async-Await/</id>
+    <published>2019-11-13T17:52:29.000Z</published>
+    <updated>2023-03-30T06:21:03.386Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;原文地址：&lt;a href=&quot;https://levelup.gitconnected.com/use-go-channels-as-promises-and-async-await-ee62d93078ec&quot;&gt;https://levelup.gitconnected.com</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="Go" scheme="http://www.mspring.org/tags/Go/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SpringBoot中统一包装响应</title>
+    <link href="http://www.mspring.org/2019/10/22/SpringBoot%E4%B8%AD%E7%BB%9F%E4%B8%80%E5%8C%85%E8%A3%85%E5%93%8D%E5%BA%94/"/>
+    <id>http://www.mspring.org/2019/10/22/SpringBoot%E4%B8%AD%E7%BB%9F%E4%B8%80%E5%8C%85%E8%A3%85%E5%93%8D%E5%BA%94/</id>
+    <published>2019-10-22T16:35:08.000Z</published>
+    <updated>2023-03-30T06:21:03.386Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;SpringBoot 中可以基于 &lt;code&gt;ControllerAdvice&lt;/code&gt; 和 &lt;code&gt;HttpMessageConverter&lt;/code&gt; 实现对数据返回的包装。&lt;/p&gt;
+&lt;p&gt;实现如下，先来写一个 &lt;code&gt;POJO&lt;/code&gt; 来定义一下返</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="springboot" scheme="http://www.mspring.org/tags/springboot/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Git清理历史提交记录</title>
+    <link href="http://www.mspring.org/2019/09/03/Git%E6%B8%85%E7%90%86%E5%8E%86%E5%8F%B2%E6%8F%90%E4%BA%A4%E8%AE%B0%E5%BD%95/"/>
+    <id>http://www.mspring.org/2019/09/03/Git%E6%B8%85%E7%90%86%E5%8E%86%E5%8F%B2%E6%8F%90%E4%BA%A4%E8%AE%B0%E5%BD%95/</id>
+    <published>2019-09-03T12:00:19.000Z</published>
+    <updated>2023-03-30T06:21:03.382Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="git" scheme="http://www.mspring.org/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HexoClient1.3.3版本发布</title>
+    <link href="http://www.mspring.org/2019/09/03/HexoClient1-3-3%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83/"/>
+    <id>http://www.mspring.org/2019/09/03/HexoClient1-3-3%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83/</id>
+    <published>2019-09-03T09:46:59.000Z</published>
+    <updated>2023-03-30T06:21:03.382Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;更新内容&quot;&gt;&lt;a href=&quot;#更新内容&quot; class=&quot;headerlink&quot; title=&quot;更新内容&quot;&gt;&lt;/a&gt;更新内容&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;加上一个启动失败的错误引导。&lt;/li&gt;
+&lt;li&gt;修复&lt;code&gt;好博客导航&lt;/code&gt;数据没有分页的问题。&lt;/</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="HexoClient" scheme="http://www.mspring.org/tags/HexoClient/"/>
+    
+    <category term="Hexo" scheme="http://www.mspring.org/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HexoClient1.3.2版本发布</title>
+    <link href="http://www.mspring.org/2019/08/26/HexoClient1-3-2%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83/"/>
+    <id>http://www.mspring.org/2019/08/26/HexoClient1-3-2%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83/</id>
+    <published>2019-08-26T15:01:17.000Z</published>
+    <updated>2023-03-30T06:21:03.382Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;更新内容&quot;&gt;&lt;a href=&quot;#更新内容&quot; class=&quot;headerlink&quot; title=&quot;更新内容&quot;&gt;&lt;/a&gt;更新内容&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;新增好博客导航功能，搜集和推荐优质技术博客（欢迎自荐和推荐优质博客）&lt;/li&gt;
+&lt;li&gt;添加QQ交流群（QQ群：</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>HexoClient1.3.1版本发布</title>
+    <link href="http://www.mspring.org/2019/08/12/HexoClient1-3-1%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83/"/>
+    <id>http://www.mspring.org/2019/08/12/HexoClient1-3-1%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83/</id>
+    <published>2019-08-12T14:43:10.000Z</published>
+    <updated>2023-03-30T06:21:03.382Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;更新内容&quot;&gt;&lt;a href=&quot;#更新内容&quot; class=&quot;headerlink&quot; title=&quot;更新内容&quot;&gt;&lt;/a&gt;更新内容&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;修复检查更新提示错误。&lt;a href=&quot;https://github.com/gaoyoubo/hexo-cli</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="HexoClient" scheme="http://www.mspring.org/tags/HexoClient/"/>
+    
+    <category term="Hexo" scheme="http://www.mspring.org/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HexoClient1.3.0版本发布</title>
+    <link href="http://www.mspring.org/2019/08/02/HexoClient1-3-0%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83/"/>
+    <id>http://www.mspring.org/2019/08/02/HexoClient1-3-0%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83/</id>
+    <published>2019-08-02T13:30:52.000Z</published>
+    <updated>2023-03-30T06:21:03.382Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;更新内容&quot;&gt;&lt;a href=&quot;#更新内容&quot; class=&quot;headerlink&quot; title=&quot;更新内容&quot;&gt;&lt;/a&gt;更新内容&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;修复阿里云oss图片上传后url不正确的问题。&lt;a href=&quot;https://github.com/gaoyo</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/tags/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    <category term="HexoClient" scheme="http://www.mspring.org/tags/HexoClient/"/>
+    
+    <category term="Hexo" scheme="http://www.mspring.org/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Go 语言实战:  编写可维护 Go 语言代码建议</title>
+    <link href="http://www.mspring.org/2019/07/22/Go-%E8%AF%AD%E8%A8%80%E5%AE%9E%E6%88%98-%E7%BC%96%E5%86%99%E5%8F%AF%E7%BB%B4%E6%8A%A4-Go-%E8%AF%AD%E8%A8%80%E4%BB%A3%E7%A0%81%E5%BB%BA%E8%AE%AE/"/>
+    <id>http://www.mspring.org/2019/07/22/Go-%E8%AF%AD%E8%A8%80%E5%AE%9E%E6%88%98-%E7%BC%96%E5%86%99%E5%8F%AF%E7%BB%B4%E6%8A%A4-Go-%E8%AF%AD%E8%A8%80%E4%BB%A3%E7%A0%81%E5%BB%BA%E8%AE%AE/</id>
+    <published>2019-07-22T12:33:47.000Z</published>
+    <updated>2023-03-30T06:21:03.382Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h2&gt;&lt;p&gt;大家好,我在接下来的两个会议中的目标是向大家提供有关编写 Go 代码最佳实践的建议。&lt;/p&gt;
+&lt;p&gt;这是一个研讨会形式的演讲，不会有幻灯片,</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="Go" scheme="http://www.mspring.org/tags/Go/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HexoClient1.2.9版本发布</title>
+    <link href="http://www.mspring.org/2019/07/22/HexoClient1-2-9%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83/"/>
+    <id>http://www.mspring.org/2019/07/22/HexoClient1-2-9%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83/</id>
+    <published>2019-07-22T12:32:02.000Z</published>
+    <updated>2023-03-30T06:21:03.382Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;本次更新内容&quot;&gt;&lt;a href=&quot;#本次更新内容&quot; class=&quot;headerlink&quot; title=&quot;本次更新内容&quot;&gt;&lt;/a&gt;本次更新内容&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;支持草稿功能&lt;/li&gt;
+&lt;li&gt;支持检查更新功能&lt;/li&gt;
+&lt;li&gt;修复创建文章时&lt;code&gt;c</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="HexoClient" scheme="http://www.mspring.org/tags/HexoClient/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>协同过滤和基于内容推荐有什么区别？</title>
+    <link href="http://www.mspring.org/2019/07/19/%E5%8D%8F%E5%90%8C%E8%BF%87%E6%BB%A4%E5%92%8C%E5%9F%BA%E4%BA%8E%E5%86%85%E5%AE%B9%E6%8E%A8%E8%8D%90%E6%9C%89%E4%BB%80%E4%B9%88%E5%8C%BA%E5%88%AB%EF%BC%9F/"/>
+    <id>http://www.mspring.org/2019/07/19/%E5%8D%8F%E5%90%8C%E8%BF%87%E6%BB%A4%E5%92%8C%E5%9F%BA%E4%BA%8E%E5%86%85%E5%AE%B9%E6%8E%A8%E8%8D%90%E6%9C%89%E4%BB%80%E4%B9%88%E5%8C%BA%E5%88%AB%EF%BC%9F/</id>
+    <published>2019-07-19T14:47:44.000Z</published>
+    <updated>2023-03-30T06:21:03.390Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;根据数据源的不同推荐引擎可以分为三类&quot;&gt;&lt;a href=&quot;#根据数据源的不同推荐引擎可以分为三类&quot; class=&quot;headerlink&quot; title=&quot;根据数据源的不同推荐引擎可以分为三类&quot;&gt;&lt;/a&gt;根据数据源的不同推荐引擎可以分为三类&lt;/h2&gt;&lt;p&gt;1、基于人口</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="推荐系统" scheme="http://www.mspring.org/tags/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HexoClient 1.2.8版本发布</title>
+    <link href="http://www.mspring.org/2019/07/16/HexoClient-1-2-8%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83/"/>
+    <id>http://www.mspring.org/2019/07/16/HexoClient-1-2-8%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83/</id>
+    <published>2019-07-16T19:18:06.000Z</published>
+    <updated>2023-03-30T06:21:03.382Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;本次更新内容&quot;&gt;&lt;a href=&quot;#本次更新内容&quot; class=&quot;headerlink&quot; title=&quot;本次更新内容&quot;&gt;&lt;/a&gt;本次更新内容&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;feature：新增阿里云oss图床支持 &lt;a href=&quot;https://github.com</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="HexoClient" scheme="http://www.mspring.org/tags/HexoClient/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Golang并发编程</title>
+    <link href="http://www.mspring.org/2019/07/15/Golang%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/"/>
+    <id>http://www.mspring.org/2019/07/15/Golang%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/</id>
+    <published>2019-07-15T16:23:19.000Z</published>
+    <updated>2023-03-30T06:21:03.382Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Go语言的并发是基于 goroutine 的，goroutine 类似于线程，但并非线程。可以将 goroutine 理解为一种虚拟线程。Go语言运行时会参与调度 goroutine，并将 goroutine 合理地分配到每个 CPU 中，最大限度地使用CPU性能。&lt;/p&gt;</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/tags/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    <category term="Go" scheme="http://www.mspring.org/tags/Go/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Golang指针类型和值类型</title>
+    <link href="http://www.mspring.org/2019/07/15/Golang%E6%8C%87%E9%92%88%E7%B1%BB%E5%9E%8B%E5%92%8C%E5%80%BC%E7%B1%BB%E5%9E%8B/"/>
+    <id>http://www.mspring.org/2019/07/15/Golang%E6%8C%87%E9%92%88%E7%B1%BB%E5%9E%8B%E5%92%8C%E5%80%BC%E7%B1%BB%E5%9E%8B/</id>
+    <published>2019-07-15T16:22:22.000Z</published>
+    <updated>2023-03-30T06:21:03.382Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Java中值类型和引用类型都是定死的，int、double、float、long、byte、short、char、boolean为值类型，其他的都是引用类型，而Go语言中却不是这样。&lt;/p&gt;
+&lt;p&gt;在Go语言中：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;&amp;amp;&lt;/code</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/tags/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    <category term="Go" scheme="http://www.mspring.org/tags/Go/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java程序员Go语言入门简介</title>
+    <link href="http://www.mspring.org/2019/07/15/Java%E7%A8%8B%E5%BA%8F%E5%91%98Go%E8%AF%AD%E8%A8%80%E5%85%A5%E9%97%A8%E7%AE%80%E4%BB%8B/"/>
+    <id>http://www.mspring.org/2019/07/15/Java%E7%A8%8B%E5%BA%8F%E5%91%98Go%E8%AF%AD%E8%A8%80%E5%85%A5%E9%97%A8%E7%AE%80%E4%BB%8B/</id>
+    <published>2019-07-15T16:20:11.000Z</published>
+    <updated>2023-03-30T06:21:03.386Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;为什么是Go语言&quot;&gt;&lt;a href=&quot;#为什么是Go语言&quot; class=&quot;headerlink&quot; title=&quot;为什么是Go语言&quot;&gt;&lt;/a&gt;为什么是Go语言&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;类C的语法，这意味着Java、C#、JavaScript程序员能很快的上手&lt;/l</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/tags/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    <category term="Java" scheme="http://www.mspring.org/tags/Java/"/>
+    
+    <category term="Go" scheme="http://www.mspring.org/tags/Go/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Git删除远程tag</title>
+    <link href="http://www.mspring.org/2019/07/02/Git%E5%88%A0%E9%99%A4%E8%BF%9C%E7%A8%8Btag/"/>
+    <id>http://www.mspring.org/2019/07/02/Git%E5%88%A0%E9%99%A4%E8%BF%9C%E7%A8%8Btag/</id>
+    <published>2019-07-02T13:23:45.000Z</published>
+    <updated>2023-03-30T06:21:03.382Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;删除本地tag很简单，直接：&lt;code&gt;git tag -d tagname&lt;/code&gt; 但是我们这样删除之后远程标签其实并未删除，通过以下方式可以删除远程标签。&lt;/p&gt;
+&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td cla</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="git" scheme="http://www.mspring.org/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>多个Github账号时，怎么配置sshkey</title>
+    <link href="http://www.mspring.org/2019/06/24/%E5%A4%9A%E4%B8%AAGithub%E8%B4%A6%E5%8F%B7%E6%97%B6%EF%BC%8C%E6%80%8E%E4%B9%88%E9%85%8D%E7%BD%AEsshkey/"/>
+    <id>http://www.mspring.org/2019/06/24/%E5%A4%9A%E4%B8%AAGithub%E8%B4%A6%E5%8F%B7%E6%97%B6%EF%BC%8C%E6%80%8E%E4%B9%88%E9%85%8D%E7%BD%AEsshkey/</id>
+    <published>2019-06-24T11:00:49.000Z</published>
+    <updated>2023-03-30T06:21:03.390Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;我有两个Github账号，在配置sshkey的时候是会提示&lt;code&gt;Key is already in use&lt;/code&gt;。因为github无法将相同的sshkey配置到不同的账号下，那么就要考虑同一台机器如何配置两个sshkey了。&lt;/p&gt;
+&lt;h2 id=&quot;生成第二个</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="git" scheme="http://www.mspring.org/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>搭建Shadowsocks-Server</title>
+    <link href="http://www.mspring.org/2019/06/06/%E6%90%AD%E5%BB%BAShadowsocks-Server/"/>
+    <id>http://www.mspring.org/2019/06/06/%E6%90%AD%E5%BB%BAShadowsocks-Server/</id>
+    <published>2019-06-06T10:10:22.000Z</published>
+    <updated>2023-03-30T06:21:03.390Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;之前一直使用的搬瓦工的vps搭建的shadowsocks，但是最近被封掉了。正好手里还有一台阿里云香港服务器，所以就自己搭建了一个，下面是搭建流程。&lt;/p&gt;
+&lt;p&gt;我是使用&lt;code&gt;shadowsocks-go&lt;/code&gt;进行搭建的，是基于golang编写的，所以先需要</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="shadowsocks" scheme="http://www.mspring.org/tags/shadowsocks/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>修改mariadb的datadir</title>
+    <link href="http://www.mspring.org/2019/06/05/%E4%BF%AE%E6%94%B9mariadb%E7%9A%84datadir/"/>
+    <id>http://www.mspring.org/2019/06/05/%E4%BF%AE%E6%94%B9mariadb%E7%9A%84datadir/</id>
+    <published>2019-06-05T14:04:59.000Z</published>
+    <updated>2023-03-30T06:21:03.390Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;目标：将mariadb默认的datadir（/var/lib/mysql）迁移到&lt;code&gt;/data/mysql&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;停止mariadb服务&quot;&gt;&lt;a href=&quot;#停止mariadb服</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="mariadb" scheme="http://www.mspring.org/tags/mariadb/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Centos7初始化安装mariadb</title>
+    <link href="http://www.mspring.org/2019/06/05/Centos7%E5%88%9D%E5%A7%8B%E5%8C%96%E5%AE%89%E8%A3%85mariadb/"/>
+    <id>http://www.mspring.org/2019/06/05/Centos7%E5%88%9D%E5%A7%8B%E5%8C%96%E5%AE%89%E8%A3%85mariadb/</id>
+    <published>2019-06-05T13:57:52.000Z</published>
+    <updated>2023-03-30T06:21:03.382Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;安装MariaDB&quot;&gt;&lt;a href=&quot;#安装MariaDB&quot; class=&quot;headerlink&quot; title=&quot;安装MariaDB&quot;&gt;&lt;/a&gt;安装MariaDB&lt;/h2&gt;&lt;p&gt;安装命令&lt;/p&gt;
+&lt;figure class=&quot;highlight shell&quot;&gt;&lt;</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="mariadb" scheme="http://www.mspring.org/tags/mariadb/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HexoClient 1.2.7版本发布</title>
+    <link href="http://www.mspring.org/2019/05/15/HexoClient-1-2-7%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83/"/>
+    <id>http://www.mspring.org/2019/05/15/HexoClient-1-2-7%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83/</id>
+    <published>2019-05-15T15:31:48.000Z</published>
+    <updated>2023-03-30T06:21:03.382Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;本次更新内容&quot;&gt;&lt;a href=&quot;#本次更新内容&quot; class=&quot;headerlink&quot; title=&quot;本次更新内容&quot;&gt;&lt;/a&gt;本次更新内容&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;bugfix：修复保存快捷键失效的问题  &lt;a href=&quot;https://github.com</summary>
+      
+    
+    
+    
+    
+    <category term="HexoClient" scheme="http://www.mspring.org/tags/HexoClient/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaScript计算农历</title>
+    <link href="http://www.mspring.org/2019/05/14/JavaScript%E8%AE%A1%E7%AE%97%E5%86%9C%E5%8E%86/"/>
+    <id>http://www.mspring.org/2019/05/14/JavaScript%E8%AE%A1%E7%AE%97%E5%86%9C%E5%8E%86/</id>
+    <published>2019-05-14T18:48:30.000Z</published>
+    <updated>2023-03-30T06:21:03.386Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;产品最近需要花一个万年历的图片用于分享使用，找了Java的很多库都不好用，于是在其他万年历的网页中找到了下面的代码，然后用Java调用JavaScript将万年历计算出来。&lt;/p&gt;
+&lt;h2 id=&quot;最终生成的图片&quot;&gt;&lt;a href=&quot;#最终生成的图片&quot; class=&quot;hea</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="js" scheme="http://www.mspring.org/tags/js/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Markdown 语法指南</title>
+    <link href="http://www.mspring.org/2019/04/28/markdown-help/"/>
+    <id>http://www.mspring.org/2019/04/28/markdown-help/</id>
+    <published>2019-04-28T18:04:24.000Z</published>
+    <updated>2023-03-30T06:21:03.386Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Markdown-语法指南&quot;&gt;&lt;a href=&quot;#Markdown-语法指南&quot; class=&quot;headerlink&quot; title=&quot;Markdown 语法指南&quot;&gt;&lt;/a&gt;Markdown 语法指南&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;http</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/tags/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    <category term="markdown" scheme="http://www.mspring.org/tags/markdown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Go 简易教程</title>
+    <link href="http://www.mspring.org/2019/04/28/the-little-go-book/"/>
+    <id>http://www.mspring.org/2019/04/28/the-little-go-book/</id>
+    <published>2019-04-28T12:15:05.000Z</published>
+    <updated>2023-03-30T06:21:03.386Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;关于本书&quot;&gt;&lt;a href=&quot;#关于本书&quot; class=&quot;headerlink&quot; title=&quot;关于本书&quot;&gt;&lt;/a&gt;关于本书&lt;/h1&gt;&lt;h2 id=&quot;授权许可&quot;&gt;&lt;a href=&quot;#授权许可&quot; class=&quot;headerlink&quot; title=&quot;授权许可&quot;&gt;&lt;/a</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="Go" scheme="http://www.mspring.org/tags/Go/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Git清空所有commit记录方法</title>
+    <link href="http://www.mspring.org/2019/04/25/Git%E6%B8%85%E7%A9%BA%E6%89%80%E6%9C%89commit%E8%AE%B0%E5%BD%95%E6%96%B9%E6%B3%95/"/>
+    <id>http://www.mspring.org/2019/04/25/Git%E6%B8%85%E7%A9%BA%E6%89%80%E6%9C%89commit%E8%AE%B0%E5%BD%95%E6%96%B9%E6%B3%95/</id>
+    <published>2019-04-25T19:39:23.000Z</published>
+    <updated>2023-03-30T06:21:03.382Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;说明：例如将代码提交到git仓库，将一些敏感信息提交，所以需要删除提交记录以彻底清除提交信息，以得到一个干净的仓库且代码不变&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Checkout&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;t</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="git" scheme="http://www.mspring.org/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>解决配置authorized_keys无法登陆</title>
+    <link href="http://www.mspring.org/2019/04/23/%E8%A7%A3%E5%86%B3%E9%85%8D%E7%BD%AEauthorized-keys%E6%97%A0%E6%B3%95%E7%99%BB%E9%99%86/"/>
+    <id>http://www.mspring.org/2019/04/23/%E8%A7%A3%E5%86%B3%E9%85%8D%E7%BD%AEauthorized-keys%E6%97%A0%E6%B3%95%E7%99%BB%E9%99%86/</id>
+    <published>2019-04-23T13:34:10.000Z</published>
+    <updated>2023-03-30T06:21:03.390Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;因为权限问题才无法登陆，这里记录下，方便后面查用。&lt;/p&gt;
+&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span cla</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/tags/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>pypi 镜像使用帮助</title>
+    <link href="http://www.mspring.org/2019/04/03/pypi-%E9%95%9C%E5%83%8F%E4%BD%BF%E7%94%A8%E5%B8%AE%E5%8A%A9/"/>
+    <id>http://www.mspring.org/2019/04/03/pypi-%E9%95%9C%E5%83%8F%E4%BD%BF%E7%94%A8%E5%B8%AE%E5%8A%A9/</id>
+    <published>2019-04-03T15:59:17.000Z</published>
+    <updated>2023-03-30T06:21:03.386Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;pypi 镜像每 5 分钟同步一次。&lt;/p&gt;
+&lt;h2 id=&quot;临时使用&quot;&gt;&lt;a href=&quot;#临时使用&quot; class=&quot;headerlink&quot; title=&quot;临时使用&quot;&gt;&lt;/a&gt;临时使用&lt;/h2&gt;&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="Python" scheme="http://www.mspring.org/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>半径范围内随机经纬度</title>
+    <link href="http://www.mspring.org/2019/04/03/%E5%8D%8A%E5%BE%84%E8%8C%83%E5%9B%B4%E5%86%85%E9%9A%8F%E6%9C%BA%E7%BB%8F%E7%BA%AC%E5%BA%A6/"/>
+    <id>http://www.mspring.org/2019/04/03/%E5%8D%8A%E5%BE%84%E8%8C%83%E5%9B%B4%E5%86%85%E9%9A%8F%E6%9C%BA%E7%BB%8F%E7%BA%AC%E5%BA%A6/</id>
+    <published>2019-04-03T15:40:01.000Z</published>
+    <updated>2023-03-30T06:21:03.390Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="Java" scheme="http://www.mspring.org/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Baidu Ping</title>
+    <link href="http://www.mspring.org/2019/04/01/Baidu-Ping/"/>
+    <id>http://www.mspring.org/2019/04/01/Baidu-Ping/</id>
+    <published>2019-04-01T15:29:28.000Z</published>
+    <updated>2023-03-30T06:21:03.382Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span clas</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Golang transaction 事务使用的正确姿势</title>
+    <link href="http://www.mspring.org/2019/03/18/Golang-transaction-%E4%BA%8B%E5%8A%A1%E4%BD%BF%E7%94%A8%E7%9A%84%E6%AD%A3%E7%A1%AE%E5%A7%BF%E5%8A%BF/"/>
+    <id>http://www.mspring.org/2019/03/18/Golang-transaction-%E4%BA%8B%E5%8A%A1%E4%BD%BF%E7%94%A8%E7%9A%84%E6%AD%A3%E7%A1%AE%E5%A7%BF%E5%8A%BF/</id>
+    <published>2019-03-18T19:00:26.000Z</published>
+    <updated>2023-03-30T06:21:03.382Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;第一种写法&quot;&gt;&lt;a href=&quot;#第一种写法&quot; class=&quot;headerlink&quot; title=&quot;第一种写法&quot;&gt;&lt;/a&gt;第一种写法&lt;/h2&gt;&lt;p&gt;这种写法非常朴实，程序流程也非常明确，但是事务处理与程序流程嵌入太深，容易遗漏，造成严重的问题&lt;/p&gt;
+&lt;figur</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/tags/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    <category term="Go" scheme="http://www.mspring.org/tags/Go/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HexoClient1.2.6版本发布</title>
+    <link href="http://www.mspring.org/2019/03/15/HexoClient1-2-6%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83/"/>
+    <id>http://www.mspring.org/2019/03/15/HexoClient1-2-6%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83/</id>
+    <published>2019-03-15T11:11:16.000Z</published>
+    <updated>2023-03-30T06:21:03.382Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;本次更新内容&quot;&gt;&lt;a href=&quot;#本次更新内容&quot; class=&quot;headerlink&quot; title=&quot;本次更新内容&quot;&gt;&lt;/a&gt;本次更新内容&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;feature：支持hexo特性&lt;code&gt;front-matter&lt;/code&gt; &lt;a hre</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/tags/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    <category term="HexoClient" scheme="http://www.mspring.org/tags/HexoClient/"/>
+    
+    <category term="Hexo" scheme="http://www.mspring.org/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>go mod 的使用</title>
+    <link href="http://www.mspring.org/2019/03/15/go-mod-%E7%9A%84%E4%BD%BF%E7%94%A8/"/>
+    <id>http://www.mspring.org/2019/03/15/go-mod-%E7%9A%84%E4%BD%BF%E7%94%A8/</id>
+    <published>2019-03-15T10:56:22.000Z</published>
+    <updated>2023-03-30T06:21:03.386Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;从Go1.11开始，golang官方支持了新的依赖管理工具&lt;code&gt;go mod&lt;/code&gt;。&lt;/p&gt;
+&lt;h2 id=&quot;命令行说明&quot;&gt;&lt;a href=&quot;#命令行说明&quot; class=&quot;headerlink&quot; title=&quot;命令行说明&quot;&gt;&lt;/a&gt;命令行说明&lt;/h2&gt;&lt;fig</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/tags/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    <category term="Go" scheme="http://www.mspring.org/tags/Go/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>mysql5.x重置密码</title>
+    <link href="http://www.mspring.org/2019/03/11/mysql5-x%E9%87%8D%E7%BD%AE%E5%AF%86%E7%A0%81/"/>
+    <id>http://www.mspring.org/2019/03/11/mysql5-x%E9%87%8D%E7%BD%AE%E5%AF%86%E7%A0%81/</id>
+    <published>2019-03-11T14:28:19.000Z</published>
+    <updated>2023-03-30T06:21:03.386Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;This one is for all MySQL-DBA’s, which are working on macOS. Since the Apple OS has a rather peculiar way of starting and stopping MySQL,</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/tags/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    <category term="mysql" scheme="http://www.mspring.org/tags/mysql/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Golang和Java构建工具调查</title>
+    <link href="http://www.mspring.org/2019/03/11/Golang%E5%92%8CJava%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7%E8%B0%83%E6%9F%A5/"/>
+    <id>http://www.mspring.org/2019/03/11/Golang%E5%92%8CJava%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7%E8%B0%83%E6%9F%A5/</id>
+    <published>2019-03-11T10:45:07.000Z</published>
+    <updated>2023-03-30T06:21:03.382Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Github：&lt;a href=&quot;https://github.com/blindpirate/report-of-build-tools-for-java-and-golang&quot;&gt;https://github.com/blindpirate/report-of-build-</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/tags/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    <category term="Java" scheme="http://www.mspring.org/tags/Java/"/>
+    
+    <category term="Go" scheme="http://www.mspring.org/tags/Go/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>提问的智慧</title>
+    <link href="http://www.mspring.org/2019/02/25/%E6%8F%90%E9%97%AE%E7%9A%84%E6%99%BA%E6%85%A7/"/>
+    <id>http://www.mspring.org/2019/02/25/%E6%8F%90%E9%97%AE%E7%9A%84%E6%99%BA%E6%85%A7/</id>
+    <published>2019-02-25T16:04:29.000Z</published>
+    <updated>2023-03-30T06:21:03.390Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;提问的智慧&quot;&gt;&lt;a href=&quot;#提问的智慧&quot; class=&quot;headerlink&quot; title=&quot;提问的智慧&quot;&gt;&lt;/a&gt;提问的智慧&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/ryanhanwu/How-To-Ask-Questions</summary>
+      
+    
+    
+    
+    <category term="碎碎念" scheme="http://www.mspring.org/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    
+    
+    <category term="碎碎念" scheme="http://www.mspring.org/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>儿童房装修</title>
+    <link href="http://www.mspring.org/2019/02/25/%E5%84%BF%E7%AB%A5%E6%88%BF%E8%A3%85%E4%BF%AE/"/>
+    <id>http://www.mspring.org/2019/02/25/%E5%84%BF%E7%AB%A5%E6%88%BF%E8%A3%85%E4%BF%AE/</id>
+    <published>2019-02-25T14:20:35.000Z</published>
+    <updated>2023-03-30T06:21:03.390Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;小姑娘下半年要来武汉上小学了，提前将她的房间装修下。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/2019/02/25/3bbbb1a0-38c5-11e9-8e70-0f9e8fd5216d.jpg&quot; alt=&quot;1.jpg&quot;&gt;&lt;br&gt;&lt;img src=&quot;/image</summary>
+      
+    
+    
+    
+    <category term="碎碎念" scheme="http://www.mspring.org/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    
+    
+    <category term="碎碎念" scheme="http://www.mspring.org/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2019年开工大吉</title>
+    <link href="http://www.mspring.org/2019/02/11/2019%E5%B9%B4%E5%BC%80%E5%B7%A5%E5%A4%A7%E5%90%89/"/>
+    <id>http://www.mspring.org/2019/02/11/2019%E5%B9%B4%E5%BC%80%E5%B7%A5%E5%A4%A7%E5%90%89/</id>
+    <published>2019-02-11T10:36:52.000Z</published>
+    <updated>2023-03-30T06:21:03.382Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;先拜祖师爷，祖师爷保佑🙏代码无BUG。努力让我所负责的产品日活越来越高。&lt;br&gt;&lt;img src=&quot;/images/2019/02/11/798dca20-2da5-11e9-b314-1f5e2eb23a8e.jpeg&quot; alt=&quot;timg.jpeg&quot;&gt;&lt;/p&gt;
+&lt;p&gt;</summary>
+      
+    
+    
+    
+    <category term="碎碎念" scheme="http://www.mspring.org/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    
+    
+    <category term="碎碎念" scheme="http://www.mspring.org/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HexoClient1.2.5版本发布</title>
+    <link href="http://www.mspring.org/2019/01/29/HexoClient1-2-5%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83/"/>
+    <id>http://www.mspring.org/2019/01/29/HexoClient1-2-5%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83/</id>
+    <published>2019-01-29T16:46:59.000Z</published>
+    <updated>2023-03-30T06:21:03.382Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;发布地址&quot;&gt;&lt;a href=&quot;#发布地址&quot; class=&quot;headerlink&quot; title=&quot;发布地址&quot;&gt;&lt;/a&gt;发布地址&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/gaoyoubo/hexo-client/releases/tag/</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/tags/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    <category term="HexoClient" scheme="http://www.mspring.org/tags/HexoClient/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HexoClient1.2.4版本发布</title>
+    <link href="http://www.mspring.org/2019/01/24/hexo-client-1.2.4-release/"/>
+    <id>http://www.mspring.org/2019/01/24/hexo-client-1.2.4-release/</id>
+    <published>2019-01-24T11:15:07.000Z</published>
+    <updated>2023-03-30T06:21:03.386Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;发布地址&quot;&gt;&lt;a href=&quot;#发布地址&quot; class=&quot;headerlink&quot; title=&quot;发布地址&quot;&gt;&lt;/a&gt;发布地址&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/gaoyoubo/hexo-client/releases/tag/</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/tags/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    <category term="HexoClient" scheme="http://www.mspring.org/tags/HexoClient/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Git仓库初始化</title>
+    <link href="http://www.mspring.org/2019/01/15/Git%E4%BB%93%E5%BA%93%E5%88%9D%E5%A7%8B%E5%8C%96/"/>
+    <id>http://www.mspring.org/2019/01/15/Git%E4%BB%93%E5%BA%93%E5%88%9D%E5%A7%8B%E5%8C%96/</id>
+    <published>2019-01-15T18:09:01.000Z</published>
+    <updated>2023-03-30T06:21:03.382Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;Create-a-new-repository&quot;&gt;&lt;a href=&quot;#Create-a-new-repository&quot; class=&quot;headerlink&quot; title=&quot;Create a new repository&quot;&gt;&lt;/a&gt;Create a new repo</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/tags/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HexoClient1.2.3版本发布</title>
+    <link href="http://www.mspring.org/2019/01/02/HexoClient1-2-3%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83/"/>
+    <id>http://www.mspring.org/2019/01/02/HexoClient1-2-3%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83/</id>
+    <published>2019-01-02T12:04:49.000Z</published>
+    <updated>2023-03-30T06:21:03.382Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;发布地址&quot;&gt;&lt;a href=&quot;#发布地址&quot; class=&quot;headerlink&quot; title=&quot;发布地址&quot;&gt;&lt;/a&gt;发布地址&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/gaoyoubo/hexo-client/releases/tag/</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/tags/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    <category term="HexoClient" scheme="http://www.mspring.org/tags/HexoClient/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2018年最后一天</title>
+    <link href="http://www.mspring.org/2018/12/31/2018%E5%B9%B4%E6%9C%80%E5%90%8E%E4%B8%80%E5%A4%A9/"/>
+    <id>http://www.mspring.org/2018/12/31/2018%E5%B9%B4%E6%9C%80%E5%90%8E%E4%B8%80%E5%A4%A9/</id>
+    <published>2018-12-31T16:14:02.000Z</published>
+    <updated>2023-03-30T06:21:03.382Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;先占个坑，回头写总结。&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="碎碎念" scheme="http://www.mspring.org/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    
+    
+    <category term="碎碎念" scheme="http://www.mspring.org/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JWT介绍</title>
+    <link href="http://www.mspring.org/2018/12/24/JWT%E4%BB%8B%E7%BB%8D/"/>
+    <id>http://www.mspring.org/2018/12/24/JWT%E4%BB%8B%E7%BB%8D/</id>
+    <published>2018-12-24T11:51:10.000Z</published>
+    <updated>2023-03-30T06:21:03.386Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;JWT全称为：JSON Web Token是目前最流行的跨域认证的解决方案。&lt;/p&gt;
+&lt;h2 id=&quot;跨域认证的问题&quot;&gt;&lt;a href=&quot;#跨域认证的问题&quot; class=&quot;headerlink&quot; title=&quot;跨域认证的问题&quot;&gt;&lt;/a&gt;跨域认证的问题&lt;/h2&gt;&lt;p&gt;互联网服</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/tags/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>IDE Goland DEBUG报错</title>
+    <link href="http://www.mspring.org/2018/12/21/IDE-Goland-DEBUG%E6%8A%A5%E9%94%99/"/>
+    <id>http://www.mspring.org/2018/12/21/IDE-Goland-DEBUG%E6%8A%A5%E9%94%99/</id>
+    <published>2018-12-21T11:27:33.000Z</published>
+    <updated>2023-03-30T06:21:03.382Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;在升级GO版本到1.11后发现Goland的Debug报错，错误信息如下：&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="Go" scheme="http://www.mspring.org/tags/Go/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>周末烧烤</title>
+    <link href="http://www.mspring.org/2018/12/03/%E5%91%A8%E6%9C%AB%E7%83%A7%E7%83%A4/"/>
+    <id>http://www.mspring.org/2018/12/03/%E5%91%A8%E6%9C%AB%E7%83%A7%E7%83%A4/</id>
+    <published>2018-12-03T15:34:49.000Z</published>
+    <updated>2023-03-30T06:21:03.390Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;上周末买了烧烤架、羊腿，回家折腾烧烤，第一次自己腌肉烧烤，味道还不错。&lt;br&gt;&lt;img src=&quot;https://file.mspring.org/images/blog/1dcae93841785a0a9dbc6b426b9e3cc3!detail&quot;&gt;&lt;br&gt;&lt;img s</summary>
+      
+    
+    
+    
+    <category term="碎碎念" scheme="http://www.mspring.org/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    
+    
+    <category term="碎碎念" scheme="http://www.mspring.org/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HexoClient使用帮助</title>
+    <link href="http://www.mspring.org/2018/11/29/HexoClient%E4%BD%BF%E7%94%A8%E5%B8%AE%E5%8A%A9/"/>
+    <id>http://www.mspring.org/2018/11/29/HexoClient%E4%BD%BF%E7%94%A8%E5%B8%AE%E5%8A%A9/</id>
+    <published>2018-11-29T19:18:29.000Z</published>
+    <updated>2023-03-30T06:21:03.382Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h1&gt;&lt;p&gt;HexoClient是一款跨平台的&lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;管理工具。&lt;/p&gt;
+&lt;p&gt;项目地址：</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="HexoClient" scheme="http://www.mspring.org/tags/HexoClient/"/>
+    
+    <category term="Hexo" scheme="http://www.mspring.org/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用AppVeyor和Travis自动编译Electron全平台应用</title>
+    <link href="http://www.mspring.org/2018/11/26/%E4%BD%BF%E7%94%A8AppVeyor%E5%92%8CTravis%E8%87%AA%E5%8A%A8%E7%BC%96%E8%AF%91Electron%E5%85%A8%E5%B9%B3%E5%8F%B0%E5%BA%94%E7%94%A8/"/>
+    <id>http://www.mspring.org/2018/11/26/%E4%BD%BF%E7%94%A8AppVeyor%E5%92%8CTravis%E8%87%AA%E5%8A%A8%E7%BC%96%E8%AF%91Electron%E5%85%A8%E5%B9%B3%E5%8F%B0%E5%BA%94%E7%94%A8/</id>
+    <published>2018-11-26T17:53:48.000Z</published>
+    <updated>2023-03-30T06:21:03.386Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;package-json配置&quot;&gt;&lt;a href=&quot;#package-json配置&quot; class=&quot;headerlink&quot; title=&quot;package.json配置&quot;&gt;&lt;/a&gt;package.json配置&lt;/h2&gt;&lt;figure class=&quot;highlight&quot;</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/tags/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    <category term="Electron" scheme="http://www.mspring.org/tags/Electron/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HexoClient1.2.1版本发布</title>
+    <link href="http://www.mspring.org/2018/11/23/HexoClient1-2-1%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83/"/>
+    <id>http://www.mspring.org/2018/11/23/HexoClient1-2-1%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83/</id>
+    <published>2018-11-23T13:05:49.000Z</published>
+    <updated>2023-03-30T06:21:03.382Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;更新内容&quot;&gt;&lt;a href=&quot;#更新内容&quot; class=&quot;headerlink&quot; title=&quot;更新内容&quot;&gt;&lt;/a&gt;更新内容&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;支持文章搜索&lt;/li&gt;
+&lt;li&gt;优化新建、编辑文章页布局&lt;/li&gt;
+&lt;li&gt;优化调整发布功能按钮 issues&lt;</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="Hexo" scheme="http://www.mspring.org/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HexoClient被Electron应用中心收录</title>
+    <link href="http://www.mspring.org/2018/11/17/HexoClient%E8%A2%ABElectron%E5%BA%94%E7%94%A8%E4%B8%AD%E5%BF%83%E6%94%B6%E5%BD%95/"/>
+    <id>http://www.mspring.org/2018/11/17/HexoClient%E8%A2%ABElectron%E5%BA%94%E7%94%A8%E4%B8%AD%E5%BF%83%E6%94%B6%E5%BD%95/</id>
+    <published>2018-11-17T14:10:30.000Z</published>
+    <updated>2023-03-30T06:21:03.382Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;今天打开electron的app中心发现HexoClient已经被收录了，纪念一下。&lt;br&gt;地址：&lt;a href=&quot;https://electronjs.org/apps/hexo-client&quot;&gt;https://electronjs.org/apps/hexo-clien</summary>
+      
+    
+    
+    
+    <category term="碎碎念" scheme="http://www.mspring.org/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    
+    
+    <category term="碎碎念" scheme="http://www.mspring.org/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    
+    <category term="程序员" scheme="http://www.mspring.org/tags/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    <category term="HexoClient" scheme="http://www.mspring.org/tags/HexoClient/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Ubuntu配置Shadownsocks以及配置pac规则</title>
+    <link href="http://www.mspring.org/2018/11/17/Ubuntu%E9%85%8D%E7%BD%AEShadownsocks%E4%BB%A5%E5%8F%8A%E9%85%8D%E7%BD%AEpac%E8%A7%84%E5%88%99/"/>
+    <id>http://www.mspring.org/2018/11/17/Ubuntu%E9%85%8D%E7%BD%AEShadownsocks%E4%BB%A5%E5%8F%8A%E9%85%8D%E7%BD%AEpac%E8%A7%84%E5%88%99/</id>
+    <published>2018-11-17T13:41:11.000Z</published>
+    <updated>2023-03-30T06:21:03.386Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;周末没事将自己闲置的Thinkpad安装了最新的Ubuntu18.10版本，安装成功之后就想着将之前在自己的vps上配置的shadowsock服务使用上。&lt;/p&gt;
+&lt;h3 id=&quot;第一步安装shadowsocks&quot;&gt;&lt;a href=&quot;#第一步安装shadowsocks&quot; c</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="Linux" scheme="http://www.mspring.org/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Ubuntu18.10配置rc.local自启动</title>
+    <link href="http://www.mspring.org/2018/11/17/Ubuntu18-10%E9%85%8D%E7%BD%AErc-local%E8%87%AA%E5%90%AF%E5%8A%A8/"/>
+    <id>http://www.mspring.org/2018/11/17/Ubuntu18-10%E9%85%8D%E7%BD%AErc-local%E8%87%AA%E5%90%AF%E5%8A%A8/</id>
+    <published>2018-11-17T13:35:03.000Z</published>
+    <updated>2023-03-30T06:21:03.386Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Ubuntu新版本中已经不使用rc.local这种自启动方式了，熟悉旧版本的同学肯定是很不习惯的。那么新版本中如何配置rc.local呢。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;自行创建 /etc/rc.local 添加以下默认内容&lt;/p&gt;
+&lt;figure class=&quot;high</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="Linux" scheme="http://www.mspring.org/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo1.2.0发布，全新的UI布局</title>
+    <link href="http://www.mspring.org/2018/11/10/Hexo1-2-0%E5%8F%91%E5%B8%83%EF%BC%8C%E5%85%A8%E6%96%B0%E7%9A%84UI%E5%B8%83%E5%B1%80/"/>
+    <id>http://www.mspring.org/2018/11/10/Hexo1-2-0%E5%8F%91%E5%B8%83%EF%BC%8C%E5%85%A8%E6%96%B0%E7%9A%84UI%E5%B8%83%E5%B1%80/</id>
+    <published>2018-11-10T16:41:24.000Z</published>
+    <updated>2023-03-30T06:21:03.382Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hexo1.2.0发布，全新的UI布局。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;之前一直觉得HexoClient的ui太不像一个原生应用，一眼就能看出是网页做的。同样是基于electron，vscode、atom等应用的ui看起来就特别正规、好看，所以这次周末抽一天时间调</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/tags/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    <category term="HexoClient" scheme="http://www.mspring.org/tags/HexoClient/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>《倚天屠龙记》读后感</title>
+    <link href="http://www.mspring.org/2018/11/09/%E3%80%8A%E5%80%9A%E5%A4%A9%E5%B1%A0%E9%BE%99%E8%AE%B0%E3%80%8B%E8%AF%BB%E5%90%8E%E6%84%9F/"/>
+    <id>http://www.mspring.org/2018/11/09/%E3%80%8A%E5%80%9A%E5%A4%A9%E5%B1%A0%E9%BE%99%E8%AE%B0%E3%80%8B%E8%AF%BB%E5%90%8E%E6%84%9F/</id>
+    <published>2018-11-09T11:28:27.000Z</published>
+    <updated>2023-03-30T06:21:03.386Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;看过各种版本的倚天屠龙记，最早看的是TVB吴启华版本的，后来是苏有朋版本的，再到到后来是邓超版本的。&lt;/p&gt;
+&lt;p&gt;作为一个原著党，我之前是看过一遍《倚天屠龙记》的。不止《倚天屠龙记》，金庸的书我基本上都看过。上一次看《倚天屠龙记》距离现在已经很久了，里面的情节很多已经都忘</summary>
+      
+    
+    
+    
+    <category term="碎碎念" scheme="http://www.mspring.org/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    
+    
+    <category term="碎碎念" scheme="http://www.mspring.org/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>搬瓦工使用笔记</title>
+    <link href="http://www.mspring.org/2018/11/07/%E6%90%AC%E7%93%A6%E5%B7%A5%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/"/>
+    <id>http://www.mspring.org/2018/11/07/%E6%90%AC%E7%93%A6%E5%B7%A5%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/</id>
+    <published>2018-11-07T14:48:31.000Z</published>
+    <updated>2023-03-30T06:21:03.390Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;之前一直使用朋友的vpn进行翻墙，今天突然发现用不了了，同事强烈推荐使用&lt;code&gt;搬瓦工&lt;/code&gt;（ &lt;a href=&quot;https://bwh8.net/&quot;&gt;https://bwh8.net&lt;/a&gt; ），他们反馈很稳定。于是就去官网上买了一个最低配的，配置如下：&lt;/p</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="碎碎念" scheme="http://www.mspring.org/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    
+    <category term="程序员" scheme="http://www.mspring.org/tags/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>三亚三日游</title>
+    <link href="http://www.mspring.org/2018/10/30/%E4%B8%89%E4%BA%9A%E4%B8%89%E6%97%A5%E6%B8%B8/"/>
+    <id>http://www.mspring.org/2018/10/30/%E4%B8%89%E4%BA%9A%E4%B8%89%E6%97%A5%E6%B8%B8/</id>
+    <published>2018-10-30T15:11:39.000Z</published>
+    <updated>2023-03-30T06:21:03.386Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;三亚几点印象：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;天很蓝，水很清。&lt;/li&gt;
+&lt;li&gt;椰子真的不好喝，酸酸的，还没在武汉买的好喝。&lt;/li&gt;
+&lt;li&gt;商业化太严重，一双普通拖鞋能买100块，吃的喝的都挺贵的。&lt;/li&gt;
+&lt;li&gt;住的酒店挺好的，如果亲子游的话定个好点的酒店，就在酒店</summary>
+      
+    
+    
+    
+    <category term="碎碎念" scheme="http://www.mspring.org/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    
+    
+    <category term="碎碎念" scheme="http://www.mspring.org/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java学习资料</title>
+    <link href="http://www.mspring.org/2018/10/30/Java%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/"/>
+    <id>http://www.mspring.org/2018/10/30/Java%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/</id>
+    <published>2018-10-30T15:02:55.000Z</published>
+    <updated>2023-03-30T06:21:03.386Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;前几天突然有个姑娘加我的QQ（不知道哪儿来的我的QQ），让我参加他们免费的公开课，然后给我分享Java学习资料，我以为是会给我发几本书，就参加了，没想到是一个txt文件😂，内容如下：&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Allen-架构师必</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/tags/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    <category term="Java" scheme="http://www.mspring.org/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>账号中心服务线上稳定一年纪念</title>
+    <link href="http://www.mspring.org/2018/10/25/%E8%B4%A6%E5%8F%B7%E4%B8%AD%E5%BF%83%E6%9C%8D%E5%8A%A1%E7%BA%BF%E4%B8%8A%E7%A8%B3%E5%AE%9A%E4%B8%80%E5%B9%B4%E7%BA%AA%E5%BF%B5/"/>
+    <id>http://www.mspring.org/2018/10/25/%E8%B4%A6%E5%8F%B7%E4%B8%AD%E5%BF%83%E6%9C%8D%E5%8A%A1%E7%BA%BF%E4%B8%8A%E7%A8%B3%E5%AE%9A%E4%B8%80%E5%B9%B4%E7%BA%AA%E5%BF%B5/</id>
+    <published>2018-10-25T18:35:18.000Z</published>
+    <updated>2023-03-30T06:21:03.390Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;这台服务由三台机器负载，每日处理一亿四千万+次请求，线上稳定运营一年多，未出现任何故障，如果不是这次需求变动还能继续稳定运行。在重启县截图纪念一下。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://file.mspring.org/images/blog/4cf2110b</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="碎碎念" scheme="http://www.mspring.org/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    
+    <category term="程序员" scheme="http://www.mspring.org/tags/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>TOP 10开源的推荐系统简介</title>
+    <link href="http://www.mspring.org/2018/10/24/TOP-10%E5%BC%80%E6%BA%90%E7%9A%84%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E7%AE%80%E4%BB%8B/"/>
+    <id>http://www.mspring.org/2018/10/24/TOP-10%E5%BC%80%E6%BA%90%E7%9A%84%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E7%AE%80%E4%BB%8B/</id>
+    <published>2018-10-24T15:18:12.000Z</published>
+    <updated>2023-03-30T06:21:03.386Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;转载自：&lt;a href=&quot;http://ibillxia.github.io/blog/2014/03/10/top-10-open-source-recommendation-systems/&quot;&gt;http://ibillxia.github.io</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/tags/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    <category term="推荐系统" scheme="http://www.mspring.org/tags/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我曾七次鄙视自己的灵魂</title>
+    <link href="http://www.mspring.org/2018/10/12/%E6%88%91%E6%9B%BE%E4%B8%83%E6%AC%A1%E9%84%99%E8%A7%86%E8%87%AA%E5%B7%B1%E7%9A%84%E7%81%B5%E9%AD%82/"/>
+    <id>http://www.mspring.org/2018/10/12/%E6%88%91%E6%9B%BE%E4%B8%83%E6%AC%A1%E9%84%99%E8%A7%86%E8%87%AA%E5%B7%B1%E7%9A%84%E7%81%B5%E9%AD%82/</id>
+    <published>2018-10-12T14:40:02.000Z</published>
+    <updated>2023-03-30T06:21:03.390Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;知乎上看到的一段话，虽然本人不太喜欢鸡汤文，但是觉得这篇文章说的自己基本上都遇到过，共勉吧。&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;</summary>
+      
+    
+    
+    
+    <category term="碎碎念" scheme="http://www.mspring.org/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    
+    
+    <category term="碎碎念" scheme="http://www.mspring.org/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Tesseract分享</title>
+    <link href="http://www.mspring.org/2018/09/28/Tesseract%E5%88%86%E4%BA%AB/"/>
+    <id>http://www.mspring.org/2018/09/28/Tesseract%E5%88%86%E4%BA%AB/</id>
+    <published>2018-09-28T16:04:56.000Z</published>
+    <updated>2023-03-30T06:21:03.386Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;本分享基于tesseract4.x&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&quot;认识Tesseract&quot;&gt;&lt;a href=&quot;#认识Tesseract&quot; class=&quot;headerlink&quot; title=&quot;认识Tesseract&quot;&gt;&lt;/a&gt;认</summary>
+      
+    
+    
+    
+    <category term="碎碎念" scheme="http://www.mspring.org/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    
+    
+    <category term="tesseract" scheme="http://www.mspring.org/tags/tesseract/"/>
+    
+    <category term="ocr" scheme="http://www.mspring.org/tags/ocr/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>How to build tesseract 4 beta on macOS</title>
+    <link href="http://www.mspring.org/2018/09/28/How-to-build-tesseract-4-beta-on-macOS/"/>
+    <id>http://www.mspring.org/2018/09/28/How-to-build-tesseract-4-beta-on-macOS/</id>
+    <published>2018-09-28T15:23:38.000Z</published>
+    <updated>2023-03-30T06:21:03.382Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;转载这篇文章之后找到了官方的文档，建议官方文档，官方文档描述更全面。官方文档地址：&lt;a href=&quot;https://github.com/tesseract-ocr/tesseract/wiki/Compiling&quot;&gt;https://github.com/tesseract</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="tesseract" scheme="http://www.mspring.org/tags/tesseract/"/>
+    
+    <category term="ocr" scheme="http://www.mspring.org/tags/ocr/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaCV分享</title>
+    <link href="http://www.mspring.org/2018/09/06/JavaCV%E5%88%86%E4%BA%AB/"/>
+    <id>http://www.mspring.org/2018/09/06/JavaCV%E5%88%86%E4%BA%AB/</id>
+    <published>2018-09-06T19:43:52.000Z</published>
+    <updated>2023-03-30T06:21:03.386Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;JavaCV是什么&quot;&gt;&lt;a href=&quot;#JavaCV是什么&quot; class=&quot;headerlink&quot; title=&quot;JavaCV是什么&quot;&gt;&lt;/a&gt;JavaCV是什么&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;JavaCV 是一款开源的视觉处理库，基于GPLv2协议，</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="Java" scheme="http://www.mspring.org/tags/Java/"/>
+    
+    <category term="JavaCV" scheme="http://www.mspring.org/tags/JavaCV/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java图片处理工具类</title>
+    <link href="http://www.mspring.org/2018/09/06/Java%E5%9B%BE%E7%89%87%E5%A4%84%E7%90%86%E5%B7%A5%E5%85%B7%E7%B1%BB/"/>
+    <id>http://www.mspring.org/2018/09/06/Java%E5%9B%BE%E7%89%87%E5%A4%84%E7%90%86%E5%B7%A5%E5%85%B7%E7%B1%BB/</id>
+    <published>2018-09-06T14:44:05.000Z</published>
+    <updated>2023-03-30T06:21:03.386Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;这段代码是我四年前写的，当时的使用场景为使用tesseract做图片的预处理。功能包含图片二值化、移除杂色、横向切分、水平切分等。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;t</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="Java" scheme="http://www.mspring.org/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>小米手机安装Charles证书</title>
+    <link href="http://www.mspring.org/2018/08/27/%E5%B0%8F%E7%B1%B3%E6%89%8B%E6%9C%BA%E5%AE%89%E8%A3%85Charles%E8%AF%81%E4%B9%A6/"/>
+    <id>http://www.mspring.org/2018/08/27/%E5%B0%8F%E7%B1%B3%E6%89%8B%E6%9C%BA%E5%AE%89%E8%A3%85Charles%E8%AF%81%E4%B9%A6/</id>
+    <published>2018-08-27T12:34:03.000Z</published>
+    <updated>2023-03-30T06:21:03.390Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;平时使用Charles进行接口抓包，新换小米手机之后发现按照之前的流程安装Charles ssl证书不好使，百度了好久才找到一下解决办法。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;使用第三方浏览器（我用的是QQ浏览器）下载.pem 格式的文件&lt;/li&gt;
+&lt;li&gt;将这个文件放入小米的&lt;co</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/tags/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>javacv使用笔记</title>
+    <link href="http://www.mspring.org/2018/08/14/javacv%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/"/>
+    <id>http://www.mspring.org/2018/08/14/javacv%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/</id>
+    <published>2018-08-14T12:56:36.000Z</published>
+    <updated>2023-03-30T06:21:03.386Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;使用过程中遇到的异常&quot;&gt;&lt;a href=&quot;#使用过程中遇到的异常&quot; class=&quot;headerlink&quot; title=&quot;使用过程中遇到的异常&quot;&gt;&lt;/a&gt;使用过程中遇到的异常&lt;/h2&gt;&lt;h3 id=&quot;异常：Could-not-initialize-class-org</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/tags/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    <category term="Java" scheme="http://www.mspring.org/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>收藏两首程序员打油诗</title>
+    <link href="http://www.mspring.org/2018/08/11/%E6%94%B6%E8%97%8F%E4%B8%A4%E9%A6%96%E7%A8%8B%E5%BA%8F%E5%91%98%E6%89%93%E6%B2%B9%E8%AF%97/"/>
+    <id>http://www.mspring.org/2018/08/11/%E6%94%B6%E8%97%8F%E4%B8%A4%E9%A6%96%E7%A8%8B%E5%BA%8F%E5%91%98%E6%89%93%E6%B2%B9%E8%AF%97/</id>
+    <published>2018-08-11T17:53:46.000Z</published>
+    <updated>2023-03-30T06:21:03.390Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/tags/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>DelayQueue使用</title>
+    <link href="http://www.mspring.org/2018/08/09/DelayQueue%E4%BD%BF%E7%94%A8/"/>
+    <id>http://www.mspring.org/2018/08/09/DelayQueue%E4%BD%BF%E7%94%A8/</id>
+    <published>2018-08-09T14:47:52.000Z</published>
+    <updated>2023-03-30T06:21:03.382Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;DelayQueue特性&quot;&gt;&lt;a href=&quot;#DelayQueue特性&quot; class=&quot;headerlink&quot; title=&quot;DelayQueue特性&quot;&gt;&lt;/a&gt;DelayQueue特性&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;队列中的元素都必须实现Delayed，元素可以指</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/tags/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    <category term="Java" scheme="http://www.mspring.org/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo-client 1.1.3更新</title>
+    <link href="http://www.mspring.org/2018/08/07/hexo-client-1-1-3%E6%9B%B4%E6%96%B0/"/>
+    <id>http://www.mspring.org/2018/08/07/hexo-client-1-1-3%E6%9B%B4%E6%96%B0/</id>
+    <published>2018-08-07T11:15:51.000Z</published>
+    <updated>2023-03-30T06:21:03.386Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;升级markdown编辑器，使用mavonEditor编辑器（&lt;a href=&quot;https://github.com/hinesboy/mavonEditor%EF%BC%89%E3%80%82&quot;&gt;https://github.com/hinesboy/mavo</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/tags/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    <category term="HexoClient" scheme="http://www.mspring.org/tags/HexoClient/"/>
+    
+    <category term="Hexo" scheme="http://www.mspring.org/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>npm发布自己的包</title>
+    <link href="http://www.mspring.org/2018/08/07/npm%E5%8F%91%E5%B8%83%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8C%85/"/>
+    <id>http://www.mspring.org/2018/08/07/npm%E5%8F%91%E5%B8%83%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8C%85/</id>
+    <published>2018-08-07T10:42:10.000Z</published>
+    <updated>2023-03-30T06:21:03.386Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;ol&gt;
+&lt;li&gt;如果没有账号，那么使用&lt;code&gt;npm adduser&lt;/code&gt;去创建账号，中间会引导你输入用户名、密码、邮箱。&lt;/li&gt;
+&lt;li&gt;如果已经有账号，需要使用&lt;code&gt;npm login&lt;/code&gt;去登录，同样会引导你输入正确的用户名、密码、邮箱。&lt;/l</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="程序员" scheme="http://www.mspring.org/tags/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>西安行</title>
+    <link href="http://www.mspring.org/2018/08/03/%E8%A5%BF%E5%AE%89%E8%A1%8C/"/>
+    <id>http://www.mspring.org/2018/08/03/%E8%A5%BF%E5%AE%89%E8%A1%8C/</id>
+    <published>2018-08-03T20:43:48.000Z</published>
+    <updated>2023-03-30T06:21:03.390Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;总结一下：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;历史文化古城，找个导游听一下讲解还是不错的，不建议自己逛。&lt;/li&gt;
+&lt;li&gt;人居多，天气还热，都晒伤了。&lt;/li&gt;
+&lt;li&gt;回民街的小吃不正中，就和北京的王府井、武汉的户部巷一样片外地人钱的。&lt;/li&gt;
+&lt;li&gt;不要被导游忽悠买他们的</summary>
+      
+    
+    
+    
+    <category term="碎碎念" scheme="http://www.mspring.org/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    
+    
+    <category term="碎碎念" scheme="http://www.mspring.org/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>看了《洛阳女儿行》除了心痛还是心痛(转载)</title>
+    <link href="http://www.mspring.org/2018/08/01/%E7%9C%8B%E4%BA%86%E3%80%8A%E6%B4%9B%E9%98%B3%E5%A5%B3%E5%84%BF%E8%A1%8C%E3%80%8B%E9%99%A4%E4%BA%86%E5%BF%83%E7%97%9B%E8%BF%98%E6%98%AF%E5%BF%83%E7%97%9B-%E8%BD%AC%E8%BD%BD/"/>
+    <id>http://www.mspring.org/2018/08/01/%E7%9C%8B%E4%BA%86%E3%80%8A%E6%B4%9B%E9%98%B3%E5%A5%B3%E5%84%BF%E8%A1%8C%E3%80%8B%E9%99%A4%E4%BA%86%E5%BF%83%E7%97%9B%E8%BF%98%E6%98%AF%E5%BF%83%E7%97%9B-%E8%BD%AC%E8%BD%BD/</id>
+    <published>2018-08-01T15:00:00.000Z</published>
+    <updated>2023-03-30T06:21:03.390Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;看洛阳女儿行第一部的时候，还在读高中二年级，现在情节是什么已经忘的差不多了，只是记得这是一本好书，故事情节、文笔都非常好。最近在微信读书上看到给我推荐洛阳女儿行，于是购买了接着往下看，今天在百度贴吧上看到了这篇书评，感觉写的非常好，于是转载了。&lt;/</summary>
+      
+    
+    
+    
+    <category term="碎碎念" scheme="http://www.mspring.org/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    
+    
+    <category term="碎碎念" scheme="http://www.mspring.org/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>迁户口</title>
+    <link href="http://www.mspring.org/2018/06/28/%E8%BF%81%E6%88%B7%E5%8F%A3/"/>
+    <id>http://www.mspring.org/2018/06/28/%E8%BF%81%E6%88%B7%E5%8F%A3/</id>
+    <published>2018-06-28T20:50:17.000Z</published>
+    <updated>2023-03-30T06:21:03.390Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;孩子要上学，急忙将房产证办下来，户口迁过来。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://file.mspring.org/images/blog/35432cb029ca7e8d0a4b39f557fe8e1c&quot;&gt;&lt;/p&gt;
+&lt;p&gt;2018-06-29&lt;br&gt;今天早上</summary>
+      
+    
+    
+    
+    <category term="碎碎念" scheme="http://www.mspring.org/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    
+    
+    <category term="碎碎念" scheme="http://www.mspring.org/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hadoop系列好文</title>
+    <link href="http://www.mspring.org/2018/06/28/Hadoop%E7%B3%BB%E5%88%97%E5%A5%BD%E6%96%87/"/>
+    <id>http://www.mspring.org/2018/06/28/Hadoop%E7%B3%BB%E5%88%97%E5%A5%BD%E6%96%87/</id>
+    <published>2018-06-28T20:40:47.000Z</published>
+    <updated>2023-03-30T06:21:03.382Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;今天看到一份很不错的hadoop文章，标注下抽空学习。&lt;br&gt;&lt;a href=&quot;http://blog.fens.me/series-hadoop-family/&quot;&gt;http://blog.fens.me/series-hadoop-family/&lt;/a&gt;&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+    <category term="Hadoop" scheme="http://www.mspring.org/tags/Hadoop/"/>
+    
+  </entry>
+  
+</feed>
